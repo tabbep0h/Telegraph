@@ -1,0 +1,347 @@
+*{
+    margin:0;
+    padding: 0;
+    border: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+body{
+    font-family:'Roboto';
+}
+/*Header*/  
+.header{
+    padding: 50px 0;
+}
+.header__block{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.header__logo{}
+.header__logo::before{
+    content:'';
+    background: url('/assets/img/logo.svg') no-repeat;
+    display:block;
+    width: 95px;
+    height: 24px;
+}
+.container1{
+    width: 1175px;
+    margin: 0 auto;
+}
+
+.header__btn{
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FF0043;
+    box-shadow: 0px 5px 50px rgba(255, 0, 67, 0.1);
+    border-radius: 23px;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+/*First*/
+.first{
+    display: flex;
+    flex-direction:row;
+}
+.first__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.first__text{
+    margin-top:163px;
+    align-items: center;
+    justify-content: center;
+    width: 552px;
+    height: 384px;
+}
+.first__text1{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 85px;
+    color: #00194A;
+
+}
+.first__text2{
+    margin-top: 20px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    color: #00194A;
+    margin-bottom: 50px;
+}
+.first__btn{
+    padding: 20px 50px;
+    background: #FF0043;
+    border-radius: 30px;
+    box-shadow: 0px 5px 50px rgba(255, 0, 67, 0.1);
+    color:#FFFFFF;
+    font-weight: 500;
+}
+.first__img{   
+    height: 100%;
+}
+/*os*/
+.os{
+    padding: 80px 0px;
+    
+}
+.os__wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.os__row{
+    display: flex;
+}
+.os__column{
+    margin-left: -15pх;
+    margin-right:30px; 
+    }
+.os__item{
+    padding: 30px 30px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    box-shadow: 0px 0px 25px rgba(0, 0, 0, 0.03);
+}
+.os__title{
+    font-weight: 500;
+    line-height: 26px;
+    font-size: 22px;
+    margin-bottom:15px;
+    margin-top:20px
+
+}
+.os__text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 26px;
+    color: #00194A;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    margin-bottom: 20px;
+}
+.os__link{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #00194A;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+    justify-content: space-between;
+}
+.os__link::after {
+    content: '';
+    margin:0 0 0 auto;
+    background: url('/assets/img/downloaddownload.svg') no-repeat;
+    display: block;
+    width: 21px;
+    height: 20px;
+}
+/*Simple*/
+.simple{
+    padding-bottom: 50px;
+}
+.simple__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.simple__img{
+    margin-left: -93px;
+}
+.simple__block{
+    max-width: 470px;
+}
+.simple__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #00194A;
+    font-size:35px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.simple__text{
+    margin-bottom: 40px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #00194A;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    font-weight: 300;
+}
+/*Spisok*/
+.spisok{
+    padding-bottom: 50px;
+}
+.spisok__wrap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.spisok__img{
+    margin-left: -93px;
+}
+.spisok__block{
+    max-width: 470px;
+}
+.spisok__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #00194A;
+    font-size:35px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.spisok__text{
+    margin-bottom: 40px;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 28px;
+    color: #00194A;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    font-weight: 300;
+}
+/*Keep*/
+.keep{
+    padding-bottom:104px;
+}
+.keep__wrap{
+    display: flex;
+    align-items: center;
+}
+.keep__img{
+    padding-right:50px;
+}
+.keep__block{
+    max-width: 470px;
+}
+.keep__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    color: #00194A;
+    font-size:35px;
+    line-height: 50px;
+    margin-bottom: 30px;
+}
+.keep__text{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    font-style: normal;
+    color: #00194A;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+}
+/*Sin*/
+.sin{
+    padding-bottom: 76px;
+}
+.sin__wrap{
+    
+}
+.sin__block{
+    background: #00194A;
+    border-radius: 25px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+.sin__title{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.sin__text{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.8;
+    padding-bottom: 50px;
+}
+.sin__btn{
+    background: #FF0043;
+    border-radius: 30px;
+    padding: 27px 50px;
+    margin-bottom: 50px;
+    font-size: 16px;
+    line-height: 19px;
+    font-weight: 500;
+    color: #FFFFFF;
+}
+/*Footer*/
+.footer{
+    display: flex;
+}
+.footer__block{
+    padding-top: 80px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 80px;
+
+}
+.footer__wrap{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.social{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #00194A;
+    text-align: right;
+}
+.rights{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #00194A;
+    text-align: right;
+}
+.twit{
+    margin-left:40px
+}
+
+.insta{
+    margin-left:40px
+}
+.book{
+    margin-left:40px
+}
+
+
